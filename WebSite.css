@@ -38,8 +38,9 @@ img
 .rightcolumn
 {
     float: left;
-    width: 30%;
+    width: 40%;
     padding-left: 20px;
+    font-size: 18px;
 }
 
 
@@ -68,7 +69,7 @@ img
 .leftcolumn
 {   
     float: left;
-    width: 70%;
+    width: 60%;
 }
  
 .card
