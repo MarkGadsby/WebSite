@@ -8,12 +8,13 @@ body
     font-family: Verdana, Geneva, Tahoma, sans-serif; 
     font-size: 22px;
     padding: 10px;
-    background: #B0C4DE;
+    background: #b4c6df;
 }
 
 ul
 {
     font-size: 28px;
+    color: #ffffff;
 }
   
   /* Header/Blog Title */
@@ -21,7 +22,7 @@ ul
 {
     padding: 30px;
     text-align: center;
-    color: #B0C4DE;
+    color: #c7daf1;
     background: #4682B4;
 }
 
@@ -47,7 +48,7 @@ img
   /* Style the top navigation bar */
   .topnav {
     overflow: hidden;
-    background-color: #333;
+    background-color: #424242;
   }
   
   /* Style the topnav links */
@@ -63,7 +64,7 @@ img
   /* Change color on hover */
   .topnav a:hover {
     background-color: #ddd;
-    color: black;
+    color: #424242;
   }
   
 .leftcolumn
@@ -75,7 +76,7 @@ img
 .card
 {
     background: #4682B4;
-    color: #B0C4DE;
+    color: #c7daf1;
     padding: 20px;
     margin-top: 20px;
 }
