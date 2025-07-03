@@ -5,101 +5,117 @@
   
 body
 {
-    font-family: Verdana, Geneva, Tahoma, sans-serif; 
+    font-family:'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
     font-size: 22px;
+    color: azure;
+    background-color: #505050;
+}
+
+.card
+{
+    background-color: #505050; 
     padding: 10px;
-    background: #b4c6df;
+}
+
+.photo
+{
+    background-color: azure;
+    margin-left: 15px;
+    margin-right: 15px;
+    padding: 10px;
+}
+
+.header
+{
+    padding: 20px;
+    text-align: center;
+    background-image: url(./background.png);
+}
+.header h1 
+{
+    font-family:'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    font-size: 72px;
 }
 
 ul
 {
     font-size: 28px;
-    color: #ffffff;
-}
-  
-  /* Header/Blog Title */
-.header
-{
-    padding: 30px;
-    text-align: center;
-    color: #c7daf1;
-    background: #4682B4;
-}
-
-.header h1 
-{
-    font-size: 50px;
-}
-
-img
-{
-    width: 100%;
+    color: azure;
 }
 
 .rightcolumn
 {
     float: left;
-    width: 40%;
-    padding-left: 20px;
-    font-size: 18px;
+    width: 25%;
+    padding: 20px;
 }
 
 
   /* Style the top navigation bar */
   .topnav {
     overflow: hidden;
-    background-color: #424242;
+    background-color:azure;
   }
   
   /* Style the topnav links */
   .topnav a {
     float: left;
     display: block;
-    color: #f2f2f2;
+    color: #505050;
     text-align: center;
-    padding: 14px 16px;
+    padding: 4px 16px;
     text-decoration: none;
   }
   
   /* Change color on hover */
   .topnav a:hover {
-    background-color: #ddd;
-    color: #424242;
+    background-color: #505050;
+    color: azure;
   }
   
-.leftcolumn
+.leftTop
 {   
     float: left;
-    width: 60%;
+    width: 75%;
+}
+
+.leftBottom
+{   
+    float: left;
+    width: 100%;
+    font-size: 18px;
 }
  
-.card
-{
-    background: #4682B4;
-    color: #c7daf1;
-    padding: 20px;
-    margin-top: 20px;
-}
-  
-/* Clear floats after the columns */
-.row::after
-{
-    content: "";
-    display: table;
-    clear: both;
-}  
-  
+
 /* Responsive layout - when the screen is less than 800px wide, make the two columns stack on top of each other instead of next to each other */
 @media screen and (max-width: 800px)
 {
-    .leftcolumn, .rightcolumn 
+    .leftTop, .leftBottom, .rightcolumn 
     {   
         width: 100%;
         padding: 0;
     }
 }
 
-/* Responsive layout - when the screen is less than 400px wide, make the navigation links stack on top of each other instead of next to each other */
+
+
+
+
+
+
+/*
+
+ Clear floats after the columns 
+.row::after
+{
+    content: "";
+    display: table;
+    clear: both;
+}  
+
+*/
+
+/* Responsive layout - when the screen is less than 400px wide, make the navigation links stack on top of each other instead of next to each other 
 @media screen and (max-width: 400px) 
 {
     .topnav a 
@@ -107,4 +123,12 @@ img
         float: none;
         width: 100%;
     }
+}*/
+
+ 
+
+/*img
+{
+    width: 100%;
 }
+*/
