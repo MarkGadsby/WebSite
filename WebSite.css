@@ -65,6 +65,7 @@ ul
     text-align: center;
     padding: 4px 16px;
     text-decoration: none;
+    font-size: 28px;
   }
   
   /* Change color on hover */
@@ -96,39 +97,3 @@ ul
         padding: 0;
     }
 }
-
-
-
-
-
-
-
-/*
-
- Clear floats after the columns 
-.row::after
-{
-    content: "";
-    display: table;
-    clear: both;
-}  
-
-*/
-
-/* Responsive layout - when the screen is less than 400px wide, make the navigation links stack on top of each other instead of next to each other 
-@media screen and (max-width: 400px) 
-{
-    .topnav a 
-    {
-        float: none;
-        width: 100%;
-    }
-}*/
-
- 
-
-/*img
-{
-    width: 100%;
-}
-*/
